@@ -4,3 +4,9 @@ body {
   background-color: var(--tg-theme-bg-color, #ffffff);
   color: var(--tg-theme-text-color, #000000);
 }
+
+.tc-modal {
+  max-height: none !important;
+  overflow: visible !important;
+  z-index: 1000 !important;
+}
